@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_purple"
+    tools:context=".UserActivity">
+
+    <TextView
+        android:id="@+id/text_vamos_comecar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/cabin"
+        android:text="@string/vamos_comecar"
+        android:textColor="@color/white"
+        android:textSize="38sp" />
+
+    <EditText
+        android:id="@+id/edit_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_centerInParent="true"
+        android:autofillHints="Convidado"
+        android:elevation="2dp"
+        android:hint="@string/qual_seu_nome"
+        android:inputType="text"
+        android:paddingVertical="16dp"
+        android:textAlignment="center"
+        android:textColorHint="@color/white"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/button_salvar_nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="@color/light_purple"
+        android:text="@string/salvar"
+        android:textSize="22sp" />
+
+
+</RelativeLayout>
