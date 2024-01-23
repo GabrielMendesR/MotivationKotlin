@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ui.MainActivity">
 
     <LinearLayout
         android:id="@+id/relative_1"
@@ -14,31 +14,34 @@
         android:orientation="horizontal">
 
         <ImageView
+            android:id="@+id/image_all"
             android:layout_width="32dp"
             android:layout_height="32dp"
             android:layout_gravity="center"
             android:layout_weight="1"
             android:contentDescription="@string/motivacional"
             android:src="@drawable/ic_all_inclusive"
-            app:tint="@color/white" />
+            app:tint="@color/images_purple" />
 
         <ImageView
+            android:id="@+id/image_emoji"
             android:layout_width="32dp"
             android:layout_height="32dp"
             android:layout_gravity="center"
             android:layout_weight="1"
             android:contentDescription="@string/feliz"
             android:src="@drawable/ic_emoji_emotions"
-            app:tint="#F220123A" />
+            app:tint="@color/images_purple" />
 
         <ImageView
+            android:id="@+id/image_sunny"
             android:layout_width="32dp"
             android:layout_height="32dp"
             android:layout_gravity="center"
             android:layout_weight="1"
             android:contentDescription="@string/modoescuro"
-            android:src="@drawable/ic_brightness_high"
-            app:tint="#F220123A" />
+            android:src="@drawable/ic_sunny"
+            app:tint="@color/images_purple" />
 
     </LinearLayout>
 
